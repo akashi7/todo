@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+body {
+  height: 100%;
+}
+
+.header {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(2, 2, 62);
+  min-height: 30px;
+  margin-top: -10px;
+}
+.main {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 30px;
+}
+.sub-main {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+.img {
+  width: 40%;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.indentity {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(199, 199, 21);
+}
+.company {
+  margin-top: 15px;
+}
+.board {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.phone {
+  margin-top: 10px;
+  color: blue;
+}
+.right-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.head1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.head2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.bottom {
+  text-align: center;
+}
+.contact {
+  background-color: whitesmoke;
+  margin-top: 30px;
+  border-radius: 15px;
+  padding: 30px;
+}
+.contact-container {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+.ios,
+.android {
+  width: 50%;
+  padding-left: 5px;
+}
+.Download {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  margin: 0% auto;
+}
+.info {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.my-app {
+  color: rgb(199, 199, 21);
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.client {
+  font-size: 28px;
+}
+.code {
+  color: rgb(199, 199, 21);
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.number {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(199, 199, 21);
+  text-align: center;
+}
+.number p {
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer {
+  background-color: whitesmoke;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 60px;
+  padding: 10px;
+  text-align: center;
+}
